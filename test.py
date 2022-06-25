@@ -1,4 +1,4 @@
-### serdar edit
+
 # Script to detect license plates.
 
 import numpy as np
