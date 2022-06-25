@@ -33,6 +33,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 plates = plate_cascade.detectMultiScale(gray,5,20)
     
 print("Found %d plates:" %len(plates))
+
 for (x,y,w,h) in plates:
 	print (x,y,w,h)
 
